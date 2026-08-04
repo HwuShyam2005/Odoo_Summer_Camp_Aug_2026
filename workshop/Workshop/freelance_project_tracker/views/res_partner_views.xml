@@ -1,0 +1,17 @@
+<odoo>
+    <record id="res_partner_view_form_inherit_freelance_project" model="ir.ui.view">
+        <field name="name">res.partner.form.inherit.estate</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//form/sheet/notebook" position="inside">
+                <page string="Listed Projects">
+                    <field name="listed_project_ids"/>
+                </page>
+                <page string="Working Projects">
+                    <field name="working_project_ids"/>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>

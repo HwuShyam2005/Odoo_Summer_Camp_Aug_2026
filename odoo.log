@@ -1,0 +1,204 @@
+2026-08-03 05:23:47,860 17512 WARNING ? odoo.tools.config: missing --http-interface/http_interface, using 0.0.0.0 by default, will change to 127.0.0.1 in 20.0 
+2026-08-03 05:23:47,860 17512 INFO ? odoo: Odoo version 19.0-20260714 
+2026-08-03 05:23:47,860 17512 INFO ? odoo: Using configuration file at c:\program files\odoo 19.0.20260714\server\odoo.conf 
+2026-08-03 05:23:47,860 17512 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19.0.20260714\\server\\odoo\\addons', 'C:\\Users\\shyam\\AppData\\Local\\OpenERP S.A.\\Odoo\\addons\\19.0', 'c:\\program files\\odoo 19.0.20260714\\server\\odoo\\addons', 'c:\\program files\\odoo 19.0.20260714\\server\\addons']) 
+2026-08-03 05:23:47,860 17512 INFO ? odoo: database: odoo@localhost:5432 
+2026-08-03 05:24:03,330 17512 INFO ? odoo.service.server: Initiating shutdown 
+2026-08-03 05:24:03,330 17512 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-08-03 05:24:03,330 17512 INFO ? odoo.service.server: A child process was found, pid is psutil.Process(pid=5832, name='conhost.exe', status='running', started='05:23:26'), process may hang 
+2026-08-03 05:24:04,452 5784 INFO ? odoo: Odoo version 19.0-20260714 
+2026-08-03 05:24:04,452 5784 INFO ? odoo: Using configuration file at c:\program files\odoo 19.0.20260714\server\odoo.conf 
+2026-08-03 05:24:04,452 5784 INFO ? odoo: addons paths: _NamespacePath(['C:\\Program Files\\Odoo 19.0.20260714\\server\\odoo\\addons', 'c:\\users\\shyam\\appdata\\local\\openerp s.a\\odoo\\addons\\19.0', 'c:\\program files\\odoo 19.0.20260714\\server\\odoo\\addons', 'c:\\program files\\odoo 19.0.20260714\\server\\addons']) 
+2026-08-03 05:24:04,452 5784 INFO ? odoo: database: odoo@localhost:5432 
+2026-08-03 05:24:04,721 5784 INFO ? odoo.service.server: HTTP service (werkzeug) running on PY042005.localdomain:8069 
+2026-08-03 05:24:08,832 5784 INFO ? odoo.sql_db: Connection to the database failed 
+2026-08-03 05:24:12,905 5784 INFO ? odoo.sql_db: Connection to the database failed 
+2026-08-03 05:28:16,457 5784 INFO ? werkzeug: 127.0.0.1 - - [03/Aug/2026 05:28:16] "GET /web/database/manager HTTP/1.1" 200 - 2 0.000 2.606
+2026-08-03 05:28:18,939 5784 INFO ? werkzeug: 127.0.0.1 - - [03/Aug/2026 05:28:18] "GET /web/database/manager HTTP/1.1" 200 - 2 0.002 2.128
+2026-08-03 05:28:27,148 5784 INFO None odoo.service.db: Create database `admin`. 
+2026-08-03 05:28:27,435 5784 INFO None odoo.modules.loading: Initializing database admin 
+2026-08-03 05:28:41,082 5784 INFO None odoo.modules.loading: loading 1 modules... 
+2026-08-03 05:28:41,082 5784 INFO None odoo.modules.loading: Loading module base (1/1) 
+2026-08-03 05:28:41,129 5784 INFO None odoo.registry: module base: creating or updating database tables 
+2026-08-03 05:28:41,484 5784 INFO None odoo.models: Prepare computation of ir.module.module.menus_by_module 
+2026-08-03 05:28:41,492 5784 INFO None odoo.models: Prepare computation of ir.module.module.reports_by_module 
+2026-08-03 05:28:41,492 5784 INFO None odoo.models: Prepare computation of ir.module.module.views_by_module 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.user_id 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.commercial_partner_id 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.complete_name 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.lang 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.company_registry 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.commercial_company_name 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.properties 
+2026-08-03 05:28:41,604 5784 INFO None odoo.models: Prepare computation of res.partner.partner_share 
+2026-08-03 05:28:41,651 5784 INFO None odoo.models: Prepare computation of res.currency.decimal_places 
+2026-08-03 05:28:41,675 5784 INFO None odoo.models: Prepare computation of res.company.uses_default_logo 
+2026-08-03 05:28:41,675 5784 INFO None odoo.models: Prepare computation of res.company.logo_web 
+2026-08-03 05:28:41,675 5784 INFO None odoo.models: Computing parent_path for table res_company... 
+2026-08-03 05:28:41,715 5784 INFO None odoo.models: Prepare computation of res.users.signature 
+2026-08-03 05:28:41,715 5784 INFO None odoo.models: Prepare computation of res.users.share 
+2026-08-03 05:28:43,504 5784 INFO None odoo.modules.loading: loading base/data/res_bank.xml 
+2026-08-03 05:28:43,566 5784 INFO None odoo.modules.loading: loading base/data/res.lang.csv 
+2026-08-03 05:28:43,624 5784 INFO None odoo.modules.loading: loading base/data/res_lang_data.xml 
+2026-08-03 05:28:43,668 5784 INFO None odoo.modules.loading: loading base/data/res_partner_data.xml 
+2026-08-03 05:28:43,724 5784 INFO None odoo.modules.loading: loading base/data/res_currency_data.xml 
+2026-08-03 05:28:44,024 5784 INFO None odoo.modules.loading: loading base/data/res_company_data.xml 
+2026-08-03 05:28:44,031 5784 INFO None odoo.modules.loading: loading base/data/res_users_data.xml 
+2026-08-03 05:28:48,018 5784 INFO None odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2026-08-03 05:28:48,037 5784 INFO None odoo.modules.loading: loading base/data/res_country_data.xml 
+2026-08-03 05:28:48,452 5784 INFO None odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2026-08-03 05:28:48,473 5784 INFO None odoo.modules.loading: loading base/security/base_groups.xml 
+2026-08-03 05:28:48,689 5784 INFO None odoo.modules.loading: loading base/security/base_security.xml 
+2026-08-03 05:28:48,792 5784 INFO None odoo.modules.loading: loading base/wizard/wizard_ir_model_menu_create_views.xml 
+2026-08-03 05:28:48,803 5784 INFO None odoo.modules.loading: loading base/views/base_menus.xml 
+2026-08-03 05:28:48,858 5784 INFO None odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2026-08-03 05:28:48,895 5784 INFO None odoo.modules.loading: loading base/views/res_config_views.xml 
+2026-08-03 05:28:48,903 5784 INFO None odoo.modules.loading: loading base/data/res.country.state.csv 
+2026-08-03 05:28:49,384 5784 INFO None odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2026-08-03 05:28:49,538 5784 INFO None odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2026-08-03 05:28:49,566 5784 INFO None odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2026-08-03 05:28:49,585 5784 INFO None odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2026-08-03 05:28:49,617 5784 INFO None odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2026-08-03 05:28:49,649 5784 INFO None odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2026-08-03 05:28:49,681 5784 INFO None odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2026-08-03 05:28:49,728 5784 INFO None odoo.modules.loading: loading base/views/ir_model_views.xml 
+2026-08-03 05:28:49,920 5784 INFO None odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2026-08-03 05:28:49,950 5784 INFO None odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2026-08-03 05:28:49,966 5784 INFO None odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2026-08-03 05:28:49,997 5784 INFO None odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2026-08-03 05:28:50,013 5784 INFO None odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2026-08-03 05:28:50,062 5784 INFO None odoo.modules.loading: loading base/views/ir_default_views.xml 
+2026-08-03 05:28:50,091 5784 INFO None odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2026-08-03 05:28:50,098 5784 INFO None odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2026-08-03 05:28:50,107 5784 INFO None odoo.modules.loading: loading base/report/ir_model_report.xml 
+2026-08-03 05:28:50,123 5784 INFO None odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2026-08-03 05:28:50,132 5784 INFO None odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2026-08-03 05:28:50,155 5784 INFO None odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2026-08-03 05:28:50,186 5784 INFO None odoo.modules.loading: loading base/views/ir_module_views.xml 
+2026-08-03 05:28:50,234 5784 INFO None odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2026-08-03 05:28:50,270 5784 INFO None odoo.modules.loading: loading base/data/ir_module_module.xml 
+2026-08-03 05:28:50,312 5784 INFO None odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2026-08-03 05:28:50,328 5784 INFO None odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2026-08-03 05:28:50,334 5784 INFO None odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2026-08-03 05:28:50,345 5784 INFO None odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2026-08-03 05:28:50,381 5784 INFO None odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2026-08-03 05:28:50,399 5784 INFO None odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2026-08-03 05:28:50,423 5784 INFO None odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2026-08-03 05:28:50,439 5784 INFO None odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2026-08-03 05:28:50,455 5784 INFO None odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2026-08-03 05:28:50,462 5784 INFO None odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2026-08-03 05:28:50,486 5784 INFO None odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2026-08-03 05:28:50,502 5784 INFO None odoo.modules.loading: loading base/views/res_company_views.xml 
+2026-08-03 05:28:50,534 5784 INFO None odoo.modules.loading: loading base/views/res_lang_views.xml 
+2026-08-03 05:28:50,554 5784 INFO None odoo.modules.loading: loading base/views/res_partner_views.xml 
+2026-08-03 05:28:50,629 5784 INFO None odoo.modules.loading: loading base/views/res_bank_views.xml 
+2026-08-03 05:28:50,661 5784 INFO None odoo.modules.loading: loading base/views/res_country_views.xml 
+2026-08-03 05:28:50,708 5784 INFO None odoo.modules.loading: loading base/views/res_currency_views.xml 
+2026-08-03 05:28:50,756 5784 INFO None odoo.modules.loading: loading base/views/res_groups_views.xml 
+2026-08-03 05:28:50,788 5784 INFO None odoo.modules.loading: loading base/views/res_users_views.xml 
+2026-08-03 05:28:50,899 5784 INFO None odoo.modules.loading: loading base/views/res_users_apikeys_views.xml 
+2026-08-03 05:28:50,915 5784 INFO None odoo.modules.loading: loading base/views/res_device_views.xml 
+2026-08-03 05:28:50,933 5784 INFO None odoo.modules.loading: loading base/views/res_users_identitycheck_views.xml 
+2026-08-03 05:28:50,946 5784 INFO None odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2026-08-03 05:28:50,953 5784 INFO None odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2026-08-03 05:28:50,965 5784 INFO None odoo.modules.loading: loading base/security/ir.model.access.csv 
+2026-08-03 05:28:51,334 5784 INFO None odoo.modules.loading: Module base loaded in 10.25s, 8410 queries (+8410 other) 
+2026-08-03 05:28:51,334 5784 INFO None odoo.modules.loading: 1 modules loaded in 10.25s, 8410 queries (+8410 extra) 
+2026-08-03 05:28:51,347 5784 INFO None odoo.modules.loading: updating modules list 
+2026-08-03 05:28:51,347 5784 INFO None odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-08-03 05:28:52,724 5784 INFO None odoo.modules.loading: loading 14 modules... 
+2026-08-03 05:28:52,724 5784 INFO None odoo.modules.loading: Loading module rpc (2/14) 
+2026-08-03 05:28:52,745 5784 INFO None odoo.modules.loading: Module rpc loaded in 0.02s, 9 queries (+9 other) 
+2026-08-03 05:28:52,745 5784 INFO None odoo.modules.loading: Loading module web (3/14) 
+2026-08-03 05:28:52,803 5784 INFO None odoo.registry: module web: creating or updating database tables 
+2026-08-03 05:28:53,229 5784 INFO None odoo.modules.loading: loading web/security/ir.model.access.csv 
+2026-08-03 05:28:53,260 5784 INFO None odoo.modules.loading: loading web/security/web_security.xml 
+2026-08-03 05:28:53,276 5784 INFO None odoo.modules.loading: loading web/views/webclient_templates.xml 
+2026-08-03 05:28:53,364 5784 INFO None odoo.modules.loading: loading web/views/report_templates.xml 
+2026-08-03 05:28:53,450 5784 INFO None odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2026-08-03 05:28:53,482 5784 INFO None odoo.modules.loading: loading web/views/partner_view.xml 
+2026-08-03 05:28:53,485 5784 INFO None odoo.modules.loading: loading web/views/speedscope_template.xml 
+2026-08-03 05:28:53,510 5784 INFO None odoo.modules.loading: loading web/views/memory_template.xml 
+2026-08-03 05:28:53,531 5784 INFO None odoo.modules.loading: loading web/views/speedscope_config_wizard.xml 
+2026-08-03 05:28:53,550 5784 INFO None odoo.modules.loading: loading web/views/neutralize_views.xml 
+2026-08-03 05:28:53,572 5784 INFO None odoo.modules.loading: loading web/views/ir_ui_view_views.xml 
+2026-08-03 05:28:53,588 5784 INFO None odoo.modules.loading: loading web/data/ir_attachment.xml 
+2026-08-03 05:28:53,595 5784 INFO None odoo.modules.loading: loading web/data/report_layout.xml 
+2026-08-03 05:28:53,649 5784 INFO None odoo.modules.loading: Module web loaded in 0.90s, 1232 queries (+1232 other) 
+2026-08-03 05:28:53,649 5784 INFO None odoo.modules.loading: Loading module api_doc (4/14) 
+2026-08-03 05:28:53,749 5784 INFO None odoo.registry: module api_doc: creating or updating database tables 
+2026-08-03 05:28:53,749 5784 INFO None odoo.modules.loading: loading api_doc/security/res_groups.xml 
+2026-08-03 05:28:53,797 5784 INFO None odoo.modules.loading: loading api_doc/views/docclient.xml 
+2026-08-03 05:28:53,833 5784 INFO None odoo.modules.loading: Module api_doc loaded in 0.18s, 63 queries (+63 other) 
+2026-08-03 05:28:53,833 5784 INFO None odoo.modules.loading: Loading module auth_totp (5/14) 
+2026-08-03 05:28:54,528 5784 INFO None odoo.registry: module auth_totp: creating or updating database tables 
+2026-08-03 05:28:54,591 5784 INFO None odoo.modules.loading: loading auth_totp/security/security.xml 
+2026-08-03 05:28:54,638 5784 INFO None odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2026-08-03 05:28:54,638 5784 INFO None odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2026-08-03 05:28:54,654 5784 INFO None odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2026-08-03 05:28:54,698 5784 INFO None odoo.modules.loading: loading auth_totp/views/templates.xml 
+2026-08-03 05:28:54,708 5784 INFO None odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2026-08-03 05:28:54,727 5784 INFO None odoo.modules.loading: Module auth_totp loaded in 0.89s, 218 queries (+218 other) 
+2026-08-03 05:28:54,727 5784 INFO None odoo.modules.loading: Loading module base_import (6/14) 
+2026-08-03 05:28:54,941 5784 INFO None odoo.registry: module base_import: creating or updating database tables 
+2026-08-03 05:28:55,321 5784 INFO None odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2026-08-03 05:28:55,336 5784 INFO None odoo.modules.loading: Module base_import loaded in 0.61s, 956 queries (+956 other) 
+2026-08-03 05:28:55,336 5784 INFO None odoo.modules.loading: Loading module base_import_module (7/14) 
+2026-08-03 05:28:55,562 5784 INFO None odoo.registry: module base_import_module: creating or updating database tables 
+2026-08-03 05:28:55,609 5784 INFO None odoo.modules.loading: loading base_import_module/security/ir.model.access.csv 
+2026-08-03 05:28:55,620 5784 INFO None odoo.modules.loading: loading base_import_module/views/base_import_module_view.xml 
+2026-08-03 05:28:55,647 5784 INFO None odoo.modules.loading: loading base_import_module/views/ir_module_views.xml 
+2026-08-03 05:28:55,684 5784 INFO None odoo.modules.loading: Module base_import_module loaded in 0.35s, 172 queries (+172 other) 
+2026-08-03 05:28:55,684 5784 INFO None odoo.modules.loading: Loading module base_setup (8/14) 
+2026-08-03 05:28:55,900 5784 INFO None odoo.registry: module base_setup: creating or updating database tables 
+2026-08-03 05:28:55,930 5784 INFO None odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2026-08-03 05:28:55,948 5784 INFO None odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2026-08-03 05:28:55,977 5784 INFO None odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2026-08-03 05:28:56,001 5784 INFO None odoo.modules.loading: Module base_setup loaded in 0.32s, 152 queries (+152 other) 
+2026-08-03 05:28:56,001 5784 INFO None odoo.modules.loading: Loading module bus (9/14) 
+2026-08-03 05:28:56,475 5784 INFO None odoo.registry: module bus: creating or updating database tables 
+2026-08-03 05:28:56,538 5784 INFO None odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2026-08-03 05:28:56,555 5784 INFO None odoo.modules.loading: Module bus loaded in 0.55s, 155 queries (+155 other) 
+2026-08-03 05:28:56,555 5784 INFO None odoo.modules.loading: Loading module web_tour (10/14) 
+2026-08-03 05:28:56,633 5784 INFO None odoo.registry: module web_tour: creating or updating database tables 
+2026-08-03 05:28:56,633 5784 INFO None odoo.models: Prepare computation of res.users.tour_enabled 
+2026-08-03 05:28:56,696 5784 INFO None odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2026-08-03 05:28:56,712 5784 INFO None odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2026-08-03 05:28:56,753 5784 INFO None odoo.modules.loading: Module web_tour loaded in 0.20s, 180 queries (+180 other) 
+2026-08-03 05:28:56,753 5784 INFO None odoo.modules.loading: Loading module auth_passkey (11/14) 
+2026-08-03 05:28:58,813 5784 INFO None odoo.registry: module auth_passkey: creating or updating database tables 
+2026-08-03 05:28:58,880 5784 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_key_views.xml 
+2026-08-03 05:28:58,916 5784 INFO None odoo.modules.loading: loading auth_passkey/views/auth_passkey_login_templates.xml 
+2026-08-03 05:28:58,946 5784 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_identitycheck_views.xml 
+2026-08-03 05:28:58,966 5784 INFO None odoo.modules.loading: loading auth_passkey/views/res_users_views.xml 
+2026-08-03 05:28:58,990 5784 INFO None odoo.modules.loading: loading auth_passkey/security/ir.model.access.csv 
+2026-08-03 05:28:59,003 5784 INFO None odoo.modules.loading: loading auth_passkey/security/security.xml 
+2026-08-03 05:28:59,027 5784 INFO None odoo.modules.loading: Module auth_passkey loaded in 2.27s, 218 queries (+218 other) 
+2026-08-03 05:28:59,027 5784 INFO None odoo.modules.loading: Loading module html_editor (12/14) 
+2026-08-03 05:29:04,515 5784 INFO None odoo.registry: module html_editor: creating or updating database tables 
+2026-08-03 05:29:04,926 5784 INFO None odoo.modules.loading: loading html_editor/security/ir.model.access.csv 
+2026-08-03 05:29:04,958 5784 INFO None odoo.modules.loading: Module html_editor loaded in 5.93s, 1034 queries (+1034 other) 
+2026-08-03 05:29:04,958 5784 INFO None odoo.modules.loading: Loading module iap (13/14) 
+2026-08-03 05:29:04,958 5784 INFO None odoo.registry: module iap: creating or updating database tables 
+2026-08-03 05:29:05,006 5784 INFO None odoo.modules.loading: loading iap/data/services.xml 
+2026-08-03 05:29:05,022 5784 INFO None odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2026-08-03 05:29:05,038 5784 INFO None odoo.modules.loading: loading iap/security/ir_rule.xml 
+2026-08-03 05:29:05,038 5784 INFO None odoo.modules.loading: loading iap/views/iap_views.xml 
+2026-08-03 05:29:05,070 5784 INFO None odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2026-08-03 05:29:05,102 5784 INFO None odoo.modules.loading: Module iap loaded in 0.14s, 182 queries (+182 other) 
+2026-08-03 05:29:05,102 5784 INFO None odoo.modules.loading: Loading module web_unsplash (14/14) 
+2026-08-03 05:29:05,205 5784 INFO None odoo.registry: module web_unsplash: creating or updating database tables 
+2026-08-03 05:29:05,232 5784 INFO None odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2026-08-03 05:29:05,261 5784 INFO None odoo.modules.loading: Module web_unsplash loaded in 0.16s, 93 queries (+93 other) 
+2026-08-03 05:29:05,261 5784 INFO None odoo.modules.loading: 14 modules loaded in 12.54s, 4664 queries (+4664 extra) 
+2026-08-03 05:29:05,484 5784 INFO None odoo.modules.loading: Modules loaded. 
+2026-08-03 05:29:05,499 5784 INFO None odoo.registry: Registry changed, signaling through the database 
+2026-08-03 05:29:05,499 5784 INFO None odoo.registry: Registry loaded in 38.142s 
+2026-08-03 05:29:09,620 5784 INFO None odoo.addons.base.models.res_users: Login successful for login:admin from 127.0.0.1 
+2026-08-03 05:29:09,633 5784 INFO None werkzeug: 127.0.0.1 - - [03/Aug/2026 05:29:09] "POST /web/database/create HTTP/1.1" 303 - 19850 5.985 44.678
+2026-08-03 05:29:09,651 5784 INFO admin odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-08-03 05:29:09,662 5784 INFO admin odoo.addons.base.models.res_device: User 2 inserts device log (qhJ_QNBugST2oYX5sfk3cdw-Pp_Gv6gml18NXdOme-) 
+2026-08-03 05:29:11,150 5784 INFO admin werkzeug: 127.0.0.1 - - [03/Aug/2026 05:29:11] "GET /odoo HTTP/1.1" 200 - 55 0.023 1.494
+2026-08-03 05:30:16,688 5784 INFO ? odoo.service.server: Initiating shutdown 
+2026-08-03 05:30:16,688 5784 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-08-03 05:30:17,121 5784 INFO ? odoo.sql_db: ConnectionPool(read/write;used=0/count=0/max=64): Closed 1 connections  
