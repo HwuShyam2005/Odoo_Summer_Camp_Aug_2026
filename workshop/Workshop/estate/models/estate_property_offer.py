@@ -12,6 +12,8 @@ class EstatePropertyOffer(models.Model):
     
     state = fields.Selection(selection = [('accepted', 'Accepted'), ('refused', 'Refused')])
     
+    _check_offer_price = models.Constraint('CHEKC(price > 0)', 'offer price must be strictly positive')
+    
     def accept_offer(self):
         for record in self:
             if record.property_id.state == 'offer_accepted':
