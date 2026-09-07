@@ -22,6 +22,12 @@
     <field name="model">estate.property</field>
     <field name="arch" type="xml">
         <form>
+            <header>
+                <button name="sell_property" type="object" string="Sell" invisible="state in ('sold', 'cancelled')"/>
+                <button name="cancel_property" type="object" string="Cancel" invisible="state in ('sold', 'cancelled')"/>
+                <field name = 'state' widget = 'statusbar' statusbar_visible = 'new,offer_accepted,sold' invisible = "state == 'cancelled'"/>
+                <widget name = 'web_ribbon' title = 'cancelled' bg_color = 'bg-danger' invisible = "state != 'cancelled'" />
+            </header>
             <sheet>
                 <h1>
                     <field name="name"/>
@@ -48,7 +54,7 @@
                         </group>
                     </page>
                     <page string = 'Offers'>
-                        <field name = 'offer_ids'/>
+                        <field name = 'offer_ids' readonly = "state in ('sold','cancelled', 'offer_accepted')"/>
                     </page>
                     </notebook>
                 </sheet>
